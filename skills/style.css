@@ -78,7 +78,9 @@ position: relative;
 width: 10px;
 height: 20px;
 background: #DDA0DD;
-border-radius: 10px/5px;}
+float:center; 
+border-radius: 10px/5px;
+}
 
 #scale {
   position: absolute;
