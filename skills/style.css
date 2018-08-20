@@ -58,7 +58,7 @@ h3 {
    position: absolute;
    top: 150px;
    width: 500px;
-   height: 438px;
+   height: 483px;
    right: 100px;
    border-radius: 0 350px  350px 0;
    border-bottom: 3px outset #BA55D3;
@@ -152,6 +152,9 @@ border-radius: 5px/5px;
    width: 50px;
  }
  #cur_s7{ 
+   width: 50px;
+ }
+ #cur_s8{ 
    width: 50px;
  }
  
