@@ -4,7 +4,7 @@
 	}
 		h3 { font-family: Georgia, Times, serif;color:#0000FF;
 		font-size: 25px}
-		p {
+		p {text-indent: 25px;
 		    font-size: 20px;
 		}
 		li{font-size: 20px;}
