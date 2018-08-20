@@ -78,7 +78,8 @@ position: relative;
 width: 10px;
 height: 20px;
 background: #DDA0DD;
-float: right;
+margin-left: 5px;
+margin-top: 5px;
 border-radius: 10px/5px;
 }
 
