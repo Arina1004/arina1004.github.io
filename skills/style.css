@@ -1,1 +1,64 @@
 
+ .parent{
+  position: absolute;
+  top: 100px;
+  right: 600px;
+  height: 40px;
+  width: 1px;
+ }
+  .parents{
+  position: absolute;
+  top: 100px;
+  right: 601px;
+  height: 40px;
+  width: 1px;
+ }
+ .skill  {
+    position: relative;
+    float: right;
+    height: 30px; 
+    font-family: Georgia, Times, serif;
+    font-size: 30px;
+    background: #FF1493;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border-bottom: 3px outset red;
+   }
+ .skills {
+    position: relative;
+    float: right;
+    height: 30px; 
+    font-family: Georgia, Times, serif;
+    font-size: 30px;
+    background: #FFC0CB;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border-bottom: 2px dotted #DDA0DD;
+    border-left: 2px dotted #DDA0DD;
+    border-top: 2px dotted #DDA0DD;
+   }
+ #mind {
+ width: 500px;
+ height: 400px;
+ right: 100px;
+ border-radius: 0 350px  350px 0;
+ background: #FF1493;
+ }
+ #s1 {   
+  width:200px;
+ }
+ #s2{ 
+   width: 150px;
+ }
+ #s3 { 
+   width: 250px;
+ }
+  #s4 { 
+   width: 50px;
+ }
+ #s5 { 
+   width: 350px;
+ }
+
