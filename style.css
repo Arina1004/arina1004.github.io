@@ -17,11 +17,12 @@
   		width: 30%;
 		float:left;
 		height: 100%;
+		padding: 15px;
 	
 	 }
 	 .info {
 	     position:relative;
-		 float:right;
+	     float:right;
 	 }
 #right{
     position: absolute;
