@@ -85,10 +85,10 @@ border-radius: 5px/5px;
 
 #scale_text {
   position: absolute;
-  top: 80px;
+  top: 65px;
   width: 500px;
   height: 50px;
-  right: 100px;
+  right: 80px;
 }
 #scale{
   position: absolute;
