@@ -29,6 +29,7 @@ h3 {
  }
  .cur_skills  {
     position: relative;
+    width:100px;
     float: right;
     height: 30px; 
     font-family: Georgia, Times, serif;
@@ -41,6 +42,7 @@ h3 {
    }
  .future_skills {
     position: relative;
+    width:100px;
     float: right;
     height: 30px; 
     background: #E6E6FA;
