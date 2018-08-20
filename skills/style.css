@@ -1,6 +1,6 @@
 body {
   background="background.jpg";
-  left:50%;
+ 
 }
 .parent_cur_skills{
   position: absolute;
@@ -41,6 +41,7 @@ body {
     border-top: 2px dotted #DDA0DD;
    }
  #text {
+   align="center";
    font-family: Georgia, Times, serif;
    font-size: 30px;
 }
