@@ -105,18 +105,40 @@ border-radius: 5px/5px;
   background: #9932CC;
   border-radius: 50px 50px 50px 50px;
 }
- #s1 {   
+ #cur_s1 {   
    width:200px;
  }
- #s2{ 
+ #fut_s1{ 
    width: 150px;
  }
- #s3 { 
-   width: 250px;
+ #cur_s2 {   
+   width:200px;
  }
-  #s4 { 
-   width: 50px;
+ #fut_s2{ 
+   width: 150px;
  }
- #s5 { 
-   width: 350px;
+ #cur_s3 {   
+   width:200px;
  }
+ #fut_s3{ 
+   width: 150px;
+ }
+ #cur_s4 {   
+   width:200px;
+ }
+ #fut_s4{ 
+   width: 150px;
+ }
+ #cur_s5 {   
+   width:200px;
+ }
+ #fut_s5{ 
+   width: 150px;
+ }
+ #cur_s6 {   
+   width:200px;
+ }
+ #cur_s7{ 
+   width: 150px;
+ }
+ 
