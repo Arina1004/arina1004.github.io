@@ -67,9 +67,9 @@ h3 {
  }
 #scale {
  position: absolute;
- top: 130px;
+ top: 100px;
  width: 500px;
- height: 400px;
+ height: 50px;
  right: 100px;
  background: #DDA0DD;
 }
