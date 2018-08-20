@@ -104,7 +104,11 @@ border-radius: 5px/5px;
   filter: alpha(Opacity=50);
   background: #9932CC;
   border-radius: 50px 50px 50px 50px;
-}
+ }
+ #now {
+ } 
+ #future {
+ }
  #cur_s1 {   
    width:100px;
  }
