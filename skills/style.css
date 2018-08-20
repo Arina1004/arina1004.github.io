@@ -3,7 +3,7 @@ body {
  
 }
 h2 {
-   color:#800080;
+   color: #BA55D3;
    font-family: Georgia, Times, serif;
    font-size: 30px;
 }
@@ -56,7 +56,7 @@ h2 {
    right: 100px;
    border-radius: 0 350px  350px 0;
    border-bottom: 	#9370DB;
-   border-right: 	#9370DB;
+ 
    background: #DDA0DD;
  }
  #s1 {   
