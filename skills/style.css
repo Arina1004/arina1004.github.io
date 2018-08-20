@@ -1,19 +1,19 @@
 
- .parent{
+ .parent_cur_skills{
   position: absolute;
   top: 100px;
   right: 600px;
   height: 40px;
   width: 1px;
  }
-  .parents{
+  .parent_fut_skills{
   position: absolute;
   top: 100px;
   right: 601px;
   height: 40px;
   width: 1px;
  }
- .skill  {
+ .cur_skills  {
     position: relative;
     float: right;
     height: 30px; 
@@ -25,7 +25,7 @@
     border-radius: 50px 0 0 50px;
     border-bottom: 3px outset red;
    }
- .skills {
+ . future_skills {
     position: relative;
     float: right;
     height: 30px; 
