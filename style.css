@@ -10,7 +10,7 @@
 		li{font-size: 20px;}
 #foto{
 	position:relative;
-	left:50%;
+	margin:50%;
 }
 #left{
 		position: absolute;
