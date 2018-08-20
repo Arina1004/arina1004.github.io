@@ -107,10 +107,13 @@ border-radius: 5px/5px;
  }
  #now {
   position: absolute;
-  
+  bottom: 100px;
+  right:600px;
  } 
  #future {
    position: absolute;
+   bottom: 100px;
+   right: 800px;
  }
  #cur_s1 {   
    width:100px;
