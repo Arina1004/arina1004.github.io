@@ -108,12 +108,13 @@ border-radius: 5px/5px;
  #now {
   position: absolute;
   bottom: 100px;
-  right:600px;
+  left:800px;
  } 
  #future {
    position: absolute;
    bottom: 100px;
-   right: 800px;
+   left: 600px;
+   color: #000;
  }
  #cur_s1 {   
    width:100px;
