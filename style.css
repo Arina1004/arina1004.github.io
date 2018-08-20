@@ -10,16 +10,20 @@
 		li{font-size: 20px;}
 #foto{
 	position:relative;
+	
 
 }
 #left{
 		position: absolute;
   		width: 30%;
 		height: 100%;
+		padding-right: 25px;
+
 	
 	 }
 	 .info {
 	     position:relative;
+		 
 	 }
 #right{
     position: absolute;
