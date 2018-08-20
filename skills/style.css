@@ -64,6 +64,10 @@ h3 {
    border-bottom: 3px outset #BA55D3;
    background: #DDA0DD;
  }
+#eye {
+width: 100px; height: 100px;
+background: #fff;
+border-radius: 50%;}
 #scale {
  position: absolute;
  top: 80px;
