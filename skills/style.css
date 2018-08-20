@@ -1,4 +1,7 @@
- .parent_cur_skills{
+body {
+  background="background.jpg";
+}
+.parent_cur_skills{
   position: absolute;
   top: 100px;
   right: 600px;
