@@ -1,0 +1,26 @@
+#left{
+		position: absolute;
+  		width: 30%;
+		float:left;
+		
+	
+	 }
+	 .info {
+	     position:relative;
+	 }
+#right{
+    position: absolute;
+    float:right;
+    left:30%;
+    width: 70%;
+   
+    
+}
+
+#education {
+    position:relative;
+    
+}
+#skills{
+    position:relative;
+}
