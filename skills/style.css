@@ -1,5 +1,6 @@
 body {
   background="background.jpg";
+  left:50%;
 }
 .parent_cur_skills{
   position: absolute;
