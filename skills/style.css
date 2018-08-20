@@ -2,6 +2,10 @@ body {
   background="background.jpg";
  
 }
+h2 {
+   font-family: Georgia, Times, serif;
+   font-size: 30px;
+}
 .parent_cur_skills{
   position: absolute;
   top: 100px;
