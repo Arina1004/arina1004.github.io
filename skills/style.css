@@ -73,6 +73,13 @@ h3 {
    background: #fff;
    border-radius: 50%;
 }
+#pupil {
+position: relative;
+width: 10px;
+height: 20px;
+background: #DDA0DD;
+border-radius: 10px/5px;}
+
 #scale {
   position: absolute;
   top: 80px;
