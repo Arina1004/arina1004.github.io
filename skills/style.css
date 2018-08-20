@@ -64,8 +64,8 @@ h3 {
    right: 100px;
    border-radius: 0 350px  350px 0;
    border-bottom: 3px outset #BA55D3;
-   opacity: 0.9; 
-   filter: alpha(Opacity=90);
+   opacity: 0.85; 
+   filter: alpha(Opacity=85);
    background: #DDA0DD;
  }
 #scale {
