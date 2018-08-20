@@ -20,7 +20,7 @@
 	 }
 	 .info {
 	     position:relative;
-	     float:right;
+	     float:left;
 	 }
 #right{
     position: absolute;
