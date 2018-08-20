@@ -75,12 +75,12 @@ h3 {
 }
 #pupil {
 position: relative;
-width: 5px;
+width: 10px;
 height: 10px;
 background: #DDA0DD;
 margin-left: 20px;
 margin-top: 10px;
-border-radius: 2.5px/5px;
+border-radius: 5px/5px;
 }
 
 #scale {
