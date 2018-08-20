@@ -29,6 +29,8 @@ h3 {
  }
  .cur_skills  {
     position: relative;
+    opacity: 0.1; 
+    filter: alpha(Opacity=10);
     float: right;
     height: 30px; 
     font-family: Georgia, Times, serif;
@@ -62,7 +64,8 @@ h3 {
    right: 100px;
    border-radius: 0 350px  350px 0;
    border-bottom: 3px outset #BA55D3;
- 
+   opacity: 0.1; 
+   filter: alpha(Opacity=10);
    background: #DDA0DD;
  }
 #scale {
