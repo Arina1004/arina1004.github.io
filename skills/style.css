@@ -109,6 +109,7 @@ border-radius: 5px/5px;
   position: absolute;
   bottom: 100px;
   left:800px;
+  border-radius: 50px 50px 50px 50px;
  } 
  #future {
    position: absolute;
@@ -117,6 +118,7 @@ border-radius: 5px/5px;
    font-family: Georgia, Times, serif;
    font-size: 20px;
    color: #4B0082;
+   border-radius: 50px 50px 50px 50px;
  }
  #cur_s1 {   
    width:100px;
