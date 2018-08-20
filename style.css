@@ -10,7 +10,7 @@
 		li{font-size: 20px;}
 #foto{
 	position:relative;
-	float:right;
+
 }
 #left{
 		position: absolute;
@@ -20,7 +20,6 @@
 	 }
 	 .info {
 	     position:relative;
-	     float:right;
 	 }
 #right{
     position: absolute;
