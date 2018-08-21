@@ -10,7 +10,7 @@
 		li{font-size: 20px;}
 #foto{
 	position:relative;
-	mairgin: 15px;
+	mairgin: 35px;
 	
 
 }
@@ -24,7 +24,8 @@
 	 }
 	 .info {
 	     position:relative;
-		 mairgin: 35px;
+	     mairgin: 35px;
+		 font:right;
 		 
 	 }
 #right{
