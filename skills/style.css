@@ -1,63 +1,5 @@
 h2 {
-   color: #4B0082;
-   font-family: "Raleway", sans-serif;
-   font-size: 35px;
-}
-h3 {
-   color: #800080;
-   font-family: "Raleway", sans-serif;
-   font-size: 30px;
-   text-align: left;
-}
- li {
-    list-style-type: none; 
-   }
-.parent_cur_skills{
-  position: absolute;
-  top: 134px;
-  right: 600px;
-  height: 40px;
-  width: 1px;
- }
-  .parent_fut_skills{
-  position: absolute;
-  top: 134px;
-  right: 601px;
-  height: 40px;
-  width: 1px;
- }
- .cur_skills  {
-    position: relative;
-    width:100px;
-    float: right;
-    height: 30px; 
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    background: #DDA0DD;
-    color: #fff;
-    padding: 15px;
-    border-radius: 50px 0 0 50px;
-    border-bottom: 3px outset #BA55D3;
-   }
- .future_skills {
-    position: relative;
-    width:100px;
-    float: right;
-    height: 29px; 
-    background: #E6E6FA;
-    color: #000;
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    opacity: 0.5; 
-    filter: alpha(Opacity=50);
-    padding: 15px;
-    border-radius: 50px 0 0 50px;
-    border-bottom: 2px dotted #DDA0DD;
-    border-left: 2px dotted #DDA0DD;
-    border-top: 2px dotted #DDA0DD;
-   }
-
- #mind {
+#mind {
    position: absolute;
    top: 150px;
    width: 500px;
@@ -85,77 +27,135 @@ margin-left: 20px;
 margin-top: 10px;
 border-radius: 5px/5px;
 }
-
-#now {
+h2 {
+   color: #4B0082;
+   font-family: "Raleway", sans-serif;
+   font-size: 35px;
+}
+h3 {
+   color: #800080;
+   font-family: "Raleway", sans-serif;
+   font-size: 30px;
+   text-align: left;
+}
+.octopus__desc-procent {
+  display: none;
+}
+ li {
+    list-style-type: none; 
+   }
+.octopus{
   position: absolute;
-  top:-90px;
-  border-radius: 50px 50px 50px 50px;
+  top: 134px;
+  right: 600px;
+  height: 40px;
+  width: 1px;
+ }
+ 
+ .octopus__desc {
+    position: relative;
+    width:800px;
+    float: right;
+    height: 29px; 
+    background: #E6E6FA;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    opacity: 0.5; 
+    filter: alpha(Opacity=50);
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border-bottom: 2px dotted #DDA0DD;
+    border-left: 2px dotted #DDA0DD;
+    border-top: 2px dotted #DDA0DD;
+   }
+
+.octopus__label_now {
+  position: absolute;
+  right:300px;
+  top:90px;
+  color:#DDA0DD;
  } 
- #future {
+.octopus__label_before {
    position: absolute;
-   right:300px;
-   top:-90px;
+   right:600px;
+   top:90px;
   
  }
- #cur_s1{   
-   width:200px;
+ .octopus__tentacles{ 
+		position: relative;
+    top:-16px;
+    right: -15px;
+    width:150px;
+    float: right;
+    height: 30px; 
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    background:  #DDA0DD ;
+    color: #000;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border-bottom: 3px outset #BA55D3; 
  }
- #fut_s1{ 
-   width: 400px;
- } 
-
- #cur_s2 {   
+ .octopus__tentacles_html_css:{
+ 	 width:200px;
+ }
+ .octopus__tentacles_html_css:before{
+ 	 position: absolute;
+  content: '';
+  display: block;
+  width: 400px;
+  height: 30px;
+  padding: 15px;
+  border-radius: 50px 0 0 50px;
+  opacity: 0.3; 
+  filter: alpha(Opacity=30);
+  background-color: #DDA0DD;
+  right: 0px;
+  top: 0px;
+ }
+ 
+ .octopus__tentacles_c:before {   
+  position: absolute;
+  content: '';
+  display: block;
+  width: 600px;
+  height: 30px;
+  padding: 15px;
+  border-radius: 50px 0 0 50px;
+  opacity: 0.3; 
+  filter: alpha(Opacity=30);
+  background-color: #DDA0DD;
+  right: 0px;
+  top: 0px;
+  
+   }
+   
+ 
+ .octopus__tentacles_c {   
    width:400px;
+  
  }
- #fut_s2{ 
-   width: 600px;
- }
-
- #cur_s3 {   
-   width: 200px;
- }
- #fut_s3{ 
+ .octopus__tentacles_image_processing{ 
    width: 350px;
+  
  }
 
- #cur_s4 {   
-   width:350px;
- }
- #fut_s4{ 
+ .octopus__tentacles_English{   
    width: 500px;
+    
  }
-
- #cur_s5 {   
-   width:500px;
- }
- #fut_s5{ 
+ .octopus__tentacles_work_in_team{ 
    width: 700px;
+ 
+ 
  }
 
- #cur_s6 {   
-   width: 300px;
+ .octopus__tentacles_programming_methodology {   
+   width:450px;
+   
  }
- #fut_s6{ 
-   width: 450px;
- }
-
- #cur_s7{ 
-   width: 50px;
- }
- #fut_s7{ 
+ .octopus__tentacles_new_skill{ 
    width: 100px;
- }
-
- #cur_s8{ 
-   width: 50px;
- }
- #fut_s8{ 
-   width: 100px;
- }
-
- #cur_s9{ 
-   width: 50px;
- }
- #fut_s9{ 
-   width: 100px;
+   
  }
