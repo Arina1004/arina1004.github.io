@@ -112,7 +112,7 @@ border-radius: 5px/5px;
  }
 
  #cur_s3 {   
-   width: 150px;
+   width: 200px;
  }
  #fut_s3{ 
    width: 350px;
@@ -140,22 +140,22 @@ border-radius: 5px/5px;
  }
 
  #cur_s7{ 
-   width: 100px;
+   width: 50px;
  }
  #fut_s7{ 
-   width: 150px;
+   width: 100px;
  }
 
  #cur_s8{ 
-   width: 100px;
+   width: 50px;
  }
  #fut_s8{ 
-   width: 150px;
+   width: 100px;
  }
 
  #cur_s9{ 
-   width: 100px;
+   width: 50px;
  }
  #fut_s9{ 
-   width: 150px;
+   width: 100px;
  }
