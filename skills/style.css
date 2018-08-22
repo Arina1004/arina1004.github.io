@@ -9,16 +9,19 @@ h3 {
    font-size: 30px;
    text-align: left;
 }
+ li {
+    list-style-type: none; 
+   }
 .parent_cur_skills{
   position: absolute;
-  top: 150px;
+  top: 134px;
   right: 600px;
   height: 40px;
   width: 1px;
  }
   .parent_fut_skills{
   position: absolute;
-  top: 150px;
+  top: 134px;
   right: 601px;
   height: 40px;
   width: 1px;
@@ -42,7 +45,9 @@ h3 {
     float: right;
     height: 30px; 
     background: #E6E6FA;
-    color: #fff;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
     opacity: 0.5; 
     filter: alpha(Opacity=50);
     padding: 15px;
@@ -81,59 +86,30 @@ margin-top: 10px;
 border-radius: 5px/5px;
 }
 
-#scale_text {
+#now {
   position: absolute;
-  top: 65px;
-  width: 500px;
-  height: 50px;
-  right: 80px;
-}
-#scale{
-  position: absolute;
-  top: 80px;
-  width: 900px;
-  height: 35px;
-  right: 600px;
-  font-family: Georgia, Times, serif;
-  font-size: 35px;
-  color: #fff;
-  padding: 15px;
-  opacity: 0.5; 
-  filter: alpha(Opacity=50);
-  background: #9932CC;
-  border-radius: 50px 50px 50px 50px;
- }
- #now {
-  position: absolute;
-  bottom: 100px;
-  left:800px;
+  top:-90px;
   border-radius: 50px 50px 50px 50px;
  } 
  #future {
    position: absolute;
-   bottom: 100px;
-   left: 600px;
-   font-family: Georgia, Times, serif;
-   font-size: 20px;
-   color: #4B0082;
-   border-radius: 50px 50px 50px 50px;
+   right:300px;
+   top:-120px;
+  
  }
- #cur_s1:before {   
+ #cur_s1{   
    width:150px;
-   content:'10%';
+
  }
-  #cur_s1:after {   
-   width:150px;
-   content:'20%';
- }
+
  #fut_s1{ 
-   width: 300px;
+   width: 200px;
  }
  #cur_s2 {   
-   width:250px;
+   width:100px;
  }
  #fut_s2{ 
-   width: 350px;
+   width: 150px;
  }
  #cur_s3 {   
    width:100px;
@@ -156,9 +132,24 @@ border-radius: 5px/5px;
  #cur_s6 {   
    width: 50px;
  }
+ #fut_s6{ 
+   width: 300px;
+ }
  #cur_s7{ 
    width: 50px;
  }
+ #fut_s7{ 
+   width:100px;
+ }
  #cur_s8{ 
    width: 50px;
+ }
+ #fut_s8{ 
+   width: 100px;
+ }
+ #cur_s9{ 
+   width: 50px;
+ }
+ #fut_s9{ 
+   width: 100px;
  }
