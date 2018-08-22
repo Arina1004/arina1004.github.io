@@ -99,54 +99,60 @@ border-radius: 5px/5px;
  }
  #cur_s1{   
    width:200px;
-
  }
-
  #fut_s1{ 
    width: 400px;
- }
+ } 
+
  #cur_s2 {   
-   width:100px;
+   width:400px;
  }
  #fut_s2{ 
    width: 600px;
  }
+
  #cur_s3 {   
    width: 150px;
  }
  #fut_s3{ 
    width: 350px;
  }
+
  #cur_s4 {   
    width:350px;
  }
  #fut_s4{ 
    width: 500px;
  }
+
  #cur_s5 {   
    width:500px;
  }
  #fut_s5{ 
    width: 700px;
  }
+
  #cur_s6 {   
-   width: 50px;
- }
- #fut_s6{ 
    width: 300px;
  }
+ #fut_s6{ 
+   width: 450px;
+ }
+
  #cur_s7{ 
    width: 50px;
  }
  #fut_s7{ 
    width: 100px;
  }
+
  #cur_s8{ 
    width: 50px;
  }
  #fut_s8{ 
    width: 100px;
  }
+
  #cur_s9{ 
    width: 50px;
  }
