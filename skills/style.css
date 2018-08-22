@@ -1,15 +1,12 @@
-body {
-  background: url(background.jpg);
- 
-}
+
 h2 {
    color: #4B0082;
-   font-family: Georgia, Times, serif;
+   font-family: "Raleway", sans-serif;
    font-size: 35px;
 }
 h3 {
    color: #800080;
-   font-family: Georgia, Times, serif;
+   font-family: "Raleway", sans-serif;
    font-size: 30px;
    text-align: left;
 }
@@ -32,7 +29,7 @@ h3 {
     width:100px;
     float: right;
     height: 30px; 
-    font-family: Georgia, Times, serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     background: #DDA0DD;
     color: #fff;
