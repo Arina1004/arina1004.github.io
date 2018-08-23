@@ -1,4 +1,3 @@
-
 #mind {
    position: absolute;
    top: 150px;
@@ -42,18 +41,71 @@ h3 {
   display: none;
 }
  li {
-    list-style-type: none; 
+    list-style-type: none;
+
    }
 .octopus{
   position: absolute;
   top: 134px;
-  right: 600px;
+  right: 100px;
   height: 40px;
   width: 1px;
  }
  
+ 
+.octopus__label_now {
+  position: absolute;
+  right:300px;
+  top:90px;
+  color: d6009d;
+  opacity: 0.6; 
+   filter: alpha(Opacity=60);
+ } 
+.octopus__label_before {
+   position: absolute;
+   right:600px;
+   top:90px;
+   color: #9370DB; 
+  
+ }
+ .octopus__tentacles{ 
+    display: flex;
+    float: right;
+    z-index: 99;
+    
+ }
+ .octopus__tentacles:before{ 
+		position: absolute;
+    content: '';
+    top:0px;
+    right: 0px;
+    width:350px;
+    opacity: 0.3; 
+    filter: alpha(Opacity=30);
+    height: 30px; 
+    background: #9370DB; 
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border-bottom: 3px outset #BA55D3; 
+ }
+ .octopus__tentacles:after{ 
+		position: absolute;
+    content: '';
+    top:0px;
+    right: 0px;
+    width:250px;
+    height: 30px; 
+    background:  #FF1493;
+    opacity: 0.3; 
+    filter: alpha(Opacity=30);
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+    border-bottom: 3px outset #BA55D3; 
+ }
+  
  .octopus__desc {
     position: relative;
+    z-index: 99;
     width:800px;
     float: right;
     height: 29px; 
@@ -61,101 +113,71 @@ h3 {
     color: #000;
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    opacity: 0.5; 
-    filter: alpha(Opacity=50);
     padding: 15px;
     border-radius: 50px 0 0 50px;
     border-bottom: 2px dotted #DDA0DD;
     border-left: 2px dotted #DDA0DD;
     border-top: 2px dotted #DDA0DD;
    }
-
-.octopus__label_now {
-  position: absolute;
-  right:300px;
-  top:90px;
-  color:#DDA0DD;
- } 
-.octopus__label_before {
-   position: absolute;
-   right:600px;
-   top:90px;
-  
- }
- .octopus__tentacles{ 
-		position: relative;
-    top:-16px;
-    right: -15px;
-    width:150px;
-    float: right;
-    height: 30px; 
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    background:  #DDA0DD ;
-    color: #000;
-    padding: 15px;
-    border-radius: 50px 0 0 50px;
-    border-bottom: 3px outset #BA55D3; 
- }
- .octopus__tentacles_html_css:{
- 	 width:200px;
- }
- .octopus__tentacles_html_css:before{
- 	 position: absolute;
-  content: '';
-  display: block;
-  width: 400px;
-  height: 30px;
-  padding: 15px;
-  border-radius: 50px 0 0 50px;
-  opacity: 0.3; 
-  filter: alpha(Opacity=30);
-  background-color: #DDA0DD;
-  right: 0px;
-  top: 0px;
- }
- 
- .octopus__tentacles_c:before {   
-  position: absolute;
-  content: '';
-  display: block;
-  width: 600px;
-  height: 30px;
-  padding: 15px;
-  border-radius: 50px 0 0 50px;
-  opacity: 0.3; 
-  filter: alpha(Opacity=30);
-  background-color: #DDA0DD;
-  right: 0px;
-  top: 0px;
-  
-   }
    
- 
- .octopus__tentacles_c {   
-   width:400px;
+ .octopus__tentacles_html_css:before{
+  width: 400px;
+}
+ .octopus__tentacles_c:before{   
+   width:600px;
   
  }
- .octopus__tentacles_image_processing{ 
+ .octopus__tentacles_image_processing:before{ 
    width: 350px;
   
  }
 
- .octopus__tentacles_English{   
+ .octopus__tentacles_English:before{   
    width: 500px;
     
  }
- .octopus__tentacles_work_in_team{ 
+ .octopus__tentacles_work_in_team:before{ 
    width: 700px;
  
  
  }
 
- .octopus__tentacles_programming_methodology {   
+ .octopus__tentacles_programming_methodology:before {   
    width:450px;
    
  }
- .octopus__tentacles_new_skill{ 
-   width: 100px;
+ .octopus__tentacles_new_skill:before{ 
+   width: 150px;
+   
+ }
+ 
+ 
+ .octopus__tentacles_html_css:after{
+  width: 200px;
+}
+ .octopus__tentacles_c:after {   
+   width:400px;
+  
+ }
+ .octopus__tentacles_image_processing:after{ 
+   width: 300px;
+  
+ }
+
+ .octopus__tentacles_English:after{   
+   width: 350px;
+    
+ }
+ .octopus__tentacles_work_in_team:after{ 
+   width: 500px;
+ 
+ }
+
+ .octopus__tentacles_programming_methodology:after {   
+   width:300px;
+   
+ }
+ .octopus__tentacles_new_skill:after{ 
+   width: 150px;
    
  }
