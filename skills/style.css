@@ -160,11 +160,14 @@ h3 {
    width:45%;
    
  }
+  .octopus__tentacles_time_planning:after{
+ width:80%;
+ }
  .octopus__tentacles_new_skill:before{ 
-   width: 5%;
+
+   width: 15%;
    
  }
- 
  
  .octopus__tentacles_html_css:after{
   width: 10%;
@@ -191,7 +194,12 @@ h3 {
    width:35%;
    
  }
+ .octopus__tentacles_time_planning:after{
+ width:70%;
+ }
  .octopus__tentacles_new_skill:after{ 
-   width: 5%;
+   
+   width: 0%;
    
  }
+
