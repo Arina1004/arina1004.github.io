@@ -106,7 +106,7 @@ h3 {
  .octopus__desc {
     position: relative;
     z-index: 99;
-    width:70%;
+    width:1000px;
     float: right;
     height: 29px; 
     background: #E6E6FA;
