@@ -75,7 +75,7 @@ h3 {
     
  }
  .octopus__tentacles:before{ 
-		position: absolute;
+    position: absolute;
     content: '';
     top:0px;
     right: 0px;
@@ -89,7 +89,7 @@ h3 {
     border-bottom: 3px outset #BA55D3; 
  }
  .octopus__tentacles:after{ 
-		position: absolute;
+    position: absolute;
     content: '';
     top:0px;
     right: 0px;
@@ -106,7 +106,7 @@ h3 {
  .octopus__desc {
     position: relative;
     z-index: 99;
-    width:1500px;
+    width:1000px;
     float: right;
     height: 29px; 
     background: #E6E6FA;
