@@ -106,7 +106,7 @@ h3 {
  .octopus__desc {
     position: relative;
     z-index: 99;
-    width:800px;
+    width:1500px;
     float: right;
     height: 29px; 
     background: #E6E6FA;
@@ -121,63 +121,63 @@ h3 {
    }
    
  .octopus__tentacles_html_css:before{
-  width: 400px;
+  width: 30%;
 }
  .octopus__tentacles_c:before{   
-   width:600px;
+   width:50%;
   
  }
  .octopus__tentacles_image_processing:before{ 
-   width: 350px;
+   width: 25%;
   
  }
 
  .octopus__tentacles_English:before{   
-   width: 500px;
+   width: 40%;
     
  }
  .octopus__tentacles_work_in_team:before{ 
-   width: 700px;
+   width: 60%;
  
  
  }
 
  .octopus__tentacles_programming_methodology:before {   
-   width:450px;
+   width:35%;
    
  }
  .octopus__tentacles_new_skill:before{ 
-   width: 150px;
+   width: 5%;
    
  }
  
  
  .octopus__tentacles_html_css:after{
-  width: 200px;
+  width: 10%;
 }
  .octopus__tentacles_c:after {   
-   width:400px;
+   width:30%;
   
  }
  .octopus__tentacles_image_processing:after{ 
-   width: 300px;
+   width: 10%;
   
  }
 
  .octopus__tentacles_English:after{   
-   width: 350px;
+   width: 25%;
     
  }
  .octopus__tentacles_work_in_team:after{ 
-   width: 500px;
+   width: 40%;
  
  }
 
  .octopus__tentacles_programming_methodology:after {   
-   width:300px;
+   width:20%;
    
  }
  .octopus__tentacles_new_skill:after{ 
-   width: 150px;
+   width: 5%;
    
  }
