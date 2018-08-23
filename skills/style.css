@@ -31,12 +31,12 @@
     position: absolute;;
     content: '';
     display: block;
-		width: 10px;
-		height: 10px;
-		background: #DDA0DD;
-		margin-left: 20px;
-		margin-top: 10px;
-		border-radius: 5px/5px;
+	width: 10px;
+	height: 10px;
+	background: #DDA0DD;
+	margin-left: 20px;
+	margin-top: 10px;
+    border-radius: 5px/5px;
 }
 
 h2 {
@@ -68,7 +68,7 @@ h3 {
  
 .octopus__label_now {
   position: absolute;
-  right:300px;
+  right:600px;
   top:90px;
   color: d6009d;
   opacity: 0.6; 
@@ -76,7 +76,7 @@ h3 {
  } 
 .octopus__label_after {
    position: absolute;
-   right:600px;
+   right:900px;
    top:90px;
    color: #9370DB; 
   
