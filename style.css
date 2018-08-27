@@ -1,4 +1,4 @@
-	h2 { font-family: Arial, sans-serif;
+h2 { font-family: Arial, sans-serif;
 	 font-size: 30px;
 	    
 	}
@@ -14,6 +14,7 @@ body{
 }
 li{
 	list-style-type: none;
+	font-size: 20px
 }		
 #foto{
 	position:relative;
@@ -26,6 +27,7 @@ li{
   		width: 30%;
 		height: 100%;
 		text-align: right;
+	    border-right :2px solid #A9A9A9;
 	   
 		
 
@@ -50,7 +52,6 @@ li{
     left:30%;
     width: 70%;
     height: 100%;
-    border-left :2px solid #A9A9A9;
     padding:15px;
 	text-align: left;
    
@@ -64,3 +65,4 @@ li{
 .resume__item__personal-skills{
     position:relative;
 }
+
