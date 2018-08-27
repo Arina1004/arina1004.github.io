@@ -1,34 +1,50 @@
 	h2 { font-family: Arial, sans-serif;
-	    font-size: 30px;
+	 font-size: 30px;
 	    
 	}
-		h3 { font-family: Georgia, Times, serif;color:#0000FF;
-		font-size: 25px}
+		h3 { font-family: "Raleway", sans-serif;
+			color:#0000FF;
+			font-size: 25px}
 		p {text-indent: 25px;
 		    font-size: 20px;
 		}
-		
+body{
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style-type: none;
+}		
 #foto{
 	position:relative;
 	margin: 35px;
 	
 
 }
-#left{
+.resume__left{
 		position: absolute;
   		width: 30%;
 		height: 100%;
+		text-align: right;
+	   
 		
 
 	
 	 }
-	 .info {
+	 .resume__item__info {
 	     position:relative;
 	     margin: 35px;
 		 font:right;
+		
 		 
 	 }
-#right{
+.resume__item__personal-qualities{
+	position:relative;
+	 margin: 35px;
+	font:right;
+		
+}
+.resume__right{
     position: absolute;
     float:right;
     left:30%;
@@ -36,14 +52,15 @@
     height: 100%;
     border-left :2px solid #A9A9A9;
     padding:15px;
+	text-align: left;
    
     
 }
 
-#education {
+.resume__item__education {
     position:relative;
     
 }
-#skills{
+.resume__item__personal-skills{
     position:relative;
 }
