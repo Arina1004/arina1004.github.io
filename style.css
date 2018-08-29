@@ -1,51 +1,58 @@
 h2 { font-family: Arial, sans-serif;
 	 font-size: 30px;
+	
 	    
 	}
-		h3 { font-family: "Raleway", sans-serif;
-			color:#0000FF;
-			font-size: 25px}
-		p {text-indent: 25px;
-		    font-size: 20px;
+h3 { font-family: "Raleway", sans-serif;
+	color:#1837AD;
+	font-size: 25px}
+p {
+	font-size: 20px;
 		}
+i{
+color:#2B37BD;
+}
 body{
 	width: 100%;
 	height: 100%;
 }
 li{
 	list-style-type: none;
-	font-size: 20px
-}		
-#foto{
-	position:relative;
-	margin: 35px;
+	font-size: 20px;
+	text-indent: 25px;
 	
-
+}	
+.resume__desc-procent{
+	display: none;
+}
+.resume__foto
+{
+	width:167;
+	height:250;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 .resume__left{
-		position: absolute;
-  		width: 30%;
-		height: 100%;
-		text-align: right;
-	    border-right :2px solid #A9A9A9;
+	position: absolute;
+  	width: 30%;
+	height: 150%;
+	text-align: right;
+	border-right :2px solid #A9A9A9;
+	
 	   
 		
 
 	
 	 }
-	 .resume__item__info {
-	     position:relative;
-	     margin: 35px;
-		 font:right;
-		
-		 
-	 }
-.resume__item__personal-qualities{
+ .resume__item__info {
 	position:relative;
-	 margin: 35px;
+	margin-right: 35px;
 	font:right;
-		
-}
+			 
+	 }
+
+
 .resume__right{
     position: absolute;
     float:right;
@@ -54,15 +61,86 @@ li{
     height: 100%;
     padding:15px;
 	text-align: left;
+	
    
     
 }
 
 .resume__item__education {
     position:relative;
+	padding-left: 25px;
+	
+	
     
 }
-.resume__item__personal-skills{
-    position:relative;
+.resume__item__experience{
+	position:relative;
+	padding-left: 25px;
+	
 }
+.resume__item__experience__text{
+	color:#4F53E4;
+	font-size: 23px;
+}
+.resume__item__personal-qualities{
+	position:relative;
+	margin-right: 35px; 
+	float: right;
+	padding-bottom: 35px;
+	
+	
+	
+	
+		
+}
+.resume__item__personal-skills{
+	position:relative;
+	padding: 0;
+    float: left;
+	padding-left: 25px;
+       
+ }
+.resume__item__scale{
+	position: relative;
+    width:80%;
+	height:25px;
+    float: left;
+    background:#ACCAEF;
+    color:#000;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+	margin-bottom: 10px;
+    border-radius:0px 50px 50px 0px;
+    border: 1px  inset #1837AD;
+	
 
+	
+}
+.resume__item__info__tel, .resume__item__info__mail{
+	color:black;
+	text-decoration: none;
+}
+.resume__item__progress{
+	position: relative;
+    float: left;
+    background:#0287E8;
+	margin-bottom: 10px;
+    border-radius:0px 50px 50px 0px;
+    border-right: 1px  inset #1837AD ;
+	border-bottom: 1px  inset  #3985CC ;
+	border-top: 1px  inset  #3985CC ;
+	
+}
+.resume__item__personal-skills__Python:{
+    width:35%;
+   
+}
+.resume__item__personal-skills__C{
+	width:30%;
+}
+.resume__item__personal-skills__HTML{
+	width:10%;
+}
+.resume__item__personal-skills__OOP{
+	width:40%;
+}
