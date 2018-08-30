@@ -24,6 +24,7 @@ li{
 }
 .resume__foto
 {
+
 	height:300px;
 	margin-right: 25px;
 	margin-left: 35px;
@@ -80,9 +81,10 @@ li{
     
 }
 .resume__hobby figure {
-  width: 40px;
-  padding-left: 25px;
-  padding-right: 25px;
+  width: 50px;
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: inline-block;
   margin-left: 0px;
 
@@ -91,7 +93,16 @@ li{
 .resume__hobby__bike{
 	height: 50px;
 }
-
+.resume__hobby__course{
+	height: 60px;
+	width: 80px;
+	padding-left: 25px;
+}
+.resume__hobby__reading{
+	height: 50px;
+	width: 70px;
+	padding-left: 10px;
+}
 .resume__right{
     position: absolute;
     float:right;
