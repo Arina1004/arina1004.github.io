@@ -1,85 +1,66 @@
 h2 { font-family: Arial, sans-serif;
-	 font-size: 30px;
-	
-	    
+	 font-size: 30px;  
 	}
 h3 { font-family: "Raleway", sans-serif;
 	color:lightseagreen;
-	font-size: 25px}
-
-
+	font-size: 25px
+	}
 
 html,body{
 	width: 100%;
 	height: 100%;
-}
+	}
 li{
 	list-style-type: none;
 	font-size: 20px;
-
-	
-}	
+	}	
 .resume__desc-procent{
 	display: none;
-}
+	}
 .resume__foto
 {
-
 	height:300px;
 	margin-right: 25px;
 	margin-left: 35px;
 	margin-top: 20px;
-	
-	
-}
+	}
+.clearfix:after {
+    content: "";
+    clear: both;
+	display: table;
+	}
 
 .resume__left{
 	float:left;
   	width: 25%;
-	height: 120%;
+	height: 100%;
 	text-align: left;
 	font-size: 20px;
 	padding: 0px;
 	border-right :2px solid #A9A9A9;
 	background:rgba(163,233,210,0.30) ;
-	
-	 }
+	}
  .resume__info {
 	position:relative;
 	margin-left: 35px;
-			 
-	 }
+	}
 .resume__personal-qualities{
 	position:relative;
 	line-height: 35px;
 	width: 80%;
-	
-	
-	
-	
-}
+	}
 .resume__personal-qualities__desc{
 	font-size: 17px;
 	display: block;
 	text-align: left;
 	padding-left: 30px;
 	line-height: 17px;
-	
-   
-	
-
-}.resume__hobby{
+	}
+.resume__hobby{
 	position: relative;
 	padding-left: 35px;
-	
+	}
 
-    
-}
-.resume__hobby h3{
-	margin-bottom:0px;
-
-    
-}
 .resume__hobby figure {
   width: 50px;
   height: 80px;
@@ -87,22 +68,20 @@ li{
   padding-right: 15px;
   display: inline-block;
   margin-left: 0px;
-
-	
-}
+	}
 .resume__hobby__bike{
 	height: 50px;
-}
+	}
 .resume__hobby__course{
 	height: 60px;
 	width: 80px;
 	padding-left: 25px;
-}
+	}
 .resume__hobby__reading{
 	height: 50px;
 	width: 70px;
 	padding-left: 10px;
-}
+	}
 .resume__right{
     position: absolute;
     float:right;
@@ -112,36 +91,44 @@ li{
 	font-size: 20px;
     padding-left:35px;
 	text-align: left;  
-    
-}
+    }
 
 .resume__education {
     position:relative;
 	padding-left: 25px;
-	
-	
-    
-}
+	}
 .resume__experience{
 	position:relative;
 	padding-left: 25px;
-	
-}
+	}
 .resume__experience__text{
 	color:rgba(39,112,88,1.00);
 	font-size: 23px;
-}
-
+	}
+.resume__trainings{
+	position: relative;
+	padding-left: 25px;
+	width: 100%;
+	margin: 0px;
+	}
+.resume__course{
+	position:relative;
+	margin:0px;
+	line-height: 35px;
+	padding-left: 25px;
+	}
+.resume__course h3{
+	margin-bottom:20px;
+	margin-top: 25px;
+	}
 .resume__personal-skills{
 	position:relative;
 	padding: 0;
+	margin: 0px;
     float: left;
 	padding-left: 25px;
 	color:rgba(39,112,88,1.00);
-	
-	
-       
- }
+	}
 
 .resume__scale{
 	position: relative;
@@ -154,36 +141,27 @@ li{
     font-size: 20px;
 	margin-bottom: 10px;
     border: 1px  inset  #73BC92;
-	
+	}
 
-	
-}
-.resume__info__tel, .resume__info__mail{
-	
-}
 .resume__progress{
 	position: relative;
     float: left;
     background: #15D490;
 	margin-bottom: 10px;
 	border: 1px  inset  #3985CC ;
-
-	
-}
+	}
 .resume__personal-skills__Python{
     width:35%;
-	
-   
-}
+	}
 .resume__personal-skills__C{
 	width:30%;
-}
+	}
 .resume__personal-skills__HTML{
 	width:15%;
-}
+	}
 .resume__personal-skills__OOP{
 	width:40%;
-}
+	}
 .resume__personal-skills__Dreamweaver{
-	width:30%;
-}
+	width:45%;
+	}
