@@ -59,6 +59,7 @@ li{
 .resume__hobby{
 	position: relative;
 	padding-left: 35px;
+	height: 400px;
 	}
 
 .resume__hobby figure {
@@ -165,3 +166,4 @@ li{
 .resume__personal-skills__Dreamweaver{
 	width:45%;
 	}
+	
